@@ -1,7 +1,27 @@
 /* Custom fonts */
+
 @font-face {
   font-family: "Apercu";
-  src: url({{ "ApercuPro-Regular.ttf" | asset_url }}) format("ttf");
+  src: url("https://uploads-ssl.webflow.com/61a73f071afaf5b4541c53a9/61a73f868293c9336ad1f7bb_ApercuPro-Light.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Apercu";
+  src: url("https://uploads-ssl.webflow.com/61a73f071afaf5b4541c53a9/61a73f86e9ecbf2ad61e174b_ApercuPro-Regular.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Apercu";
+  src: url("https://uploads-ssl.webflow.com/61a73f071afaf5b4541c53a9/61a73f86cd73215770fe39bc_ApercuPro-Medium.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Apercu";
+  src: url("https://uploads-ssl.webflow.com/61a73f071afaf5b4541c53a9/61a73f8503addb011d82a653_ApercuPro-Bold.ttf");
+  font-weight: 700;
 }
 
 /* Color custom properties */
@@ -2226,7 +2246,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 
 
 .header__active-menu-item {
-  text-weight: 700;
+  font-weight: 700;
 }
 
 
