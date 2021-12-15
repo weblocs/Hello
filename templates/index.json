@@ -10,11 +10,18 @@
             "heading_size": "medium"
           }
         },
-        "button": {
+        "ae4082c0-d274-495a-82eb-8ed863f868a7": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1c5ee63d-8f78-4c89-aae9-c61c6525236f": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Button label",
+            "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -24,7 +31,8 @@
       },
       "block_order": [
         "heading",
-        "button"
+        "ae4082c0-d274-495a-82eb-8ed863f868a7",
+        "1c5ee63d-8f78-4c89-aae9-c61c6525236f"
       ],
       "settings": {
         "image_overlay_opacity": 0,
