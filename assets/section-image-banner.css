@@ -303,6 +303,7 @@
 }
 
 .banner__box {
+  color: #;
   border: 0;
   padding: 4rem 3.5rem;
   position: relative;
@@ -311,6 +312,7 @@
   text-align: center;
   width: 100%;
   word-wrap: break-word;
+  color: #786565;
 }
 
 @media screen and (min-width: 750px) {
@@ -375,10 +377,11 @@
 
 @media screen and (min-width: 750px) {
   .banner__box {
-    padding: 5rem;
+    padding: 40px 60px;
     width: auto;
     max-width: 71rem;
     min-width: 45rem;
+    background-color: #eee
   }
 }
 

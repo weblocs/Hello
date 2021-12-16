@@ -52,7 +52,8 @@
 
   .rich-text--full-width .rich-text__blocks {
     /* 7.5rem (5rem + 2.5rem) margin on left & right */
-    width: calc(100% - 15rem);
+    width: 800px;
+    background-color: #eee;
   }
 }
 
